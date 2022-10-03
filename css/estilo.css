@@ -6,8 +6,44 @@
 border: 0ch;
 }
 
-footer{
-  background-color: rgb(2, 37, 112);
-border: 0ch;
-font-size: white;
+.boxFooter{
+  background-image: linear-gradient(to right, #21333c ,#1b5271);
+  justify-content: center;
+}
+.propImg{
+  filter: brightness(50%);
+  min-height: auto;
+}
+
+.textoCarousel {
+  position: absolute;
+  text-align-last: end;
+  font-size:1rem;
+  height: 80%;
+  width: 40%;
+  margin-left: 24%;
+  padding-right: 5%;
+  padding-left: -10%;
+  padding-top: 95px;
+  overflow-y:hidden;
+}
+
+.cajaCarousel{
+  margin-top: 95px;
+}
+.botonesCarousel{
+  min-width: 170px;
+  min-height: 40px;
+}
+.texto-main{
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.4;
+  height: fit-content;
+  padding-top: 0.5%;
+}
+
+.textomain1{
+  font-size: 12px;
+  font-weight: 100;
 }
