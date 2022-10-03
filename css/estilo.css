@@ -3,7 +3,8 @@
 
 .button{
   background-color: rgb(96, 143, 26);
-border: 0ch;
+  border: 0ch;
+  color: white;
 }
 
 .boxFooter{
@@ -11,8 +12,9 @@ border: 0ch;
   justify-content: center;
 }
 .propImg{
-  filter: brightness(50%);
-  min-height: auto;
+  filter: brightness(40%);
+  height: auto;
+  justify-content:center;
 }
 
 .textoCarousel {
@@ -20,16 +22,16 @@ border: 0ch;
   text-align-last: end;
   font-size:1rem;
   height: 80%;
-  width: 40%;
-  margin-left: 24%;
-  padding-right: 5%;
-  padding-left: -10%;
-  padding-top: 95px;
-  overflow-y:hidden;
+  width: 50%;
+  margin-left: 30%;
+  padding-right: 6%;
+  padding-left: -30%;
+  padding-top: 150px;
+  overflow-y: hidden;
 }
 
 .cajaCarousel{
-  margin-top: 95px;
+  margin-top: 100px;
 }
 .botonesCarousel{
   min-width: 170px;
@@ -44,6 +46,6 @@ border: 0ch;
 }
 
 .textomain1{
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 100;
 }
